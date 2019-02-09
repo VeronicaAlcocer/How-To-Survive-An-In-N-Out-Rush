@@ -1,0 +1,324 @@
+
+/*INDEX PAGE*/
+
+.index {
+/*	background-color: grey;*/
+background-image:url(../images/innoutback.jpg);
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+}
+
+.container {
+	max-width: 875px;
+	margin-right: auto;
+	margin-left:auto;
+}
+
+body {
+	/*background-color: rgb(249 249 249);*/
+	/*http://culurs.com/*/
+	background-color: #EEE7E2;
+	font-family: futura;
+	font-weight: bold;
+	margin: 0;
+}
+
+.topnav {
+	background-color: #EEE7E2;
+	text-align: center;
+	word-spacing: 20px;
+	padding:19px 40px;
+	margin: 0;
+}
+
+.topnav a {
+	color:#484043;
+	text-decoration:none;
+
+}
+
+.topnav a:hover {
+/*	color:rgb(204 47 32);*/
+	color:#EAC724;
+}
+
+.topnav a.active {
+	/*color:rgb(234 199 36);*/
+	color:#EAC724;
+}
+
+/*https://www.w3schools.com/css/css_navbar.asp*/
+
+h1 {
+	color:#EEE7E2;
+	height:3.5em;
+	/*4em original*/
+	padding-top: 4em;
+	letter-spacing: 1.5px;
+/*	text-align:center;*/
+}
+
+
+h2 {
+	text-align: center;
+	letter-spacing: 3px;
+	/*color:#9C3139;*/
+	color:#CC2F20;
+}
+
+p {
+	font-size:90%;
+	color:#484043;
+}
+
+/*NEWSLETTER*/
+
+hr {
+	border-width: 0 0 0.2em 0 ;
+	border-color: #EAC724;
+}
+
+form {
+/*	background-color: #EEE7E2;
+	background-opacity:0.5;*/
+	margin:0;
+}
+
+.form-control {
+	margin:1em 0;
+	width:32%;
+	padding-left: 2em;
+}
+
+.form-label {
+	font-size: 76%;
+	letter-spacing: 0.25px;
+	color:#EEE7E2;
+}
+
+.form-input {
+	display: block;
+	width:57%;
+	padding:8px 12px;
+	box-sizing: border-box;
+	background-color:#EEE7E2;
+
+}
+
+.form-button {
+	display: block;
+	width:27%;
+	box-sizing: border-box;
+	border:none;
+	background-color:#EEE7E2;
+	font-family: futura;
+	font-weight: bold;
+	font-size: 12px;
+	padding:10px 30px;
+	color:#484043;
+}
+
+/*APPAREL PAGE*/
+
+.vector-icon {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4em;
+
+}
+
+.icon-description {
+	text-align: center;
+	color:#484043;
+}
+
+h3 {
+	letter-spacing: 1.5px;
+	color:#CC2F20;
+}
+
+.apparel-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 700px
+}
+
+.apparel-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.apparel-flex-child {
+	flex: 1 1 auto;
+}
+
+video {
+	align-self: center;
+}
+
+/*PEOPLE PAGE*/
+
+.people-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 700px
+}
+
+.people-text a {
+	text-align: center;
+	letter-spacing: 1.5px;
+	color:#484043;
+	text-decoration: none;
+}
+
+.people-text a:hover {
+	color:#EAC724;
+}
+
+.people-text {
+	text-align: center;
+	letter-spacing: 1.5px;
+	padding-top:1em;
+	font-size:80%;
+}
+
+.row {
+	display:flex;
+}
+
+.column {
+	flex:33.33%;
+	padding:11px 42px;
+	/*5em 2.5em*/
+}
+
+/*PEOPLE SUB PAGES*/
+
+.people a {
+	color:#CC2F20;
+	text-decoration:none;
+
+}
+
+.people a:hover {
+	color:#EAC724;
+}
+
+.peoplesub-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 750px
+}
+
+.people-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.people-flex-child {
+	flex: 1 1 auto;
+}
+
+/*LOCATION/MAP*/
+
+/*TRANSPORTATION PAGE*/
+
+.tran-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 900px
+}
+
+.tran-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.tran-flex-child {
+	flex: 1 1 auto;
+}
+
+.bottom-left {
+	position: absolute;
+	bottom:8px;
+	left:5px;
+}
+
+figcaption {
+	font-size:90%;
+	color:#484043;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+
+
+/*ORDERING PAGE*/
+
+
+.order-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 1000px
+}
+
+.order-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.order-flex-child {
+	flex: 1 1 auto;
+}
+
+.order a {
+	color:#CC2F20;
+	text-decoration:none;
+
+}
+
+.order a:hover {
+	color:#EAC724;
+}
+
+li {
+	font-size:90%;
+	color:#484043;
+}
+
+/*WAITING PAGE*/
+
+.wait-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 900px
+}
+
+.wait-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.wait-flex-child {
+	flex: 1 1 auto;
+}
+
+/*ABOUT PAGE*/
+
+.about-container {
+	margin-left:auto;
+	margin-right:auto;
+	max-width: 920px
+}
+
+.about-flex-parent {
+	display:flex;
+	align-items: center;
+
+}
+.about-flex-child {
+	flex: 1 1 auto;
+}
+
